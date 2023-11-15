@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="MainStyle.css" rel="stylesheet" />
+    <title>REGISTER &Xi;  LOGIN</title>
+</head> 
+<body id="body">
+    <!--header-->
+    <div class="header">
+        <a href="#" id="logo" class="logo">LOGO.</a>
+        <ion-icon id="list-icon" name="list-outline"></ion-icon>
+        <nav class="nav-bar">
+            <ion-icon id="lock1" class="lock-icon" name="lock-closed-outline"></ion-icon>
+            <a href="#" id="aic1" class="aic-before">About Us</a>
+            <ion-icon id="lock2" class="lock-icon" name="lock-closed-outline"></ion-icon>
+            <a href="#" id="aic2" class="aic-before">Investor.R</a>
+            <ion-icon id="lock3" class="lock-icon" name="lock-closed-outline"></ion-icon>
+            <a href="#" id="aic3" class="aic-before">Contact Us</a>
+        </nav>
+    </div>
+
+    <div class="container-start" id="container">
+        <div class="container-hedear">
+            <div class="buttons" id="buttons">
+                <button class="login-btn" id="loginBtn">login</button>
+                <button class="signup-btn" id="signupBtn">sign up</button>
+            </div>
+            <div id="btn-background"></div>
+        </div>
+        <!--form-->
+        <div class="login" id="login">
+            <div><input type="email" placeholder="Email" class="e-p e-plogint" id="Ereq1" /></div>
+            <div><input type="password" placeholder="Password" required class="e-p e-plogint" id="Preq1" /></div>
+            <a id="submit1"><input type="submit" class="submit e-plogint" /></a>
+        </div>
+
+        <div class="register" id="register">
+            <div><input type="text" placeholder="User Name" class="e-p e-preg" required id="UNreq" /></div>
+            <div><input type="email" placeholder="Email" class="e-p e-preg" id="Ereq2" /></div>
+            <div><input type="password" placeholder="Password" required class="e-p e-preg" id="Preq2" /></div>
+            <a id="submit2" href="#"><input type="submit" class="submit e-preg" /></a>
+        </div>
+    </div>
+    <!--about us-->
+
+    <h1 id="H1AU" class="H1AU">About Us</h1>
+    <p id="PAU" class="lorem50">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit lorem eu risus rhoncus, id tincidunt odio dictum. Phasellus massa dolor, dapibus et convallis at, scelerisque vel ligula. Nulla non venenatis est, ut pretium eros. Aliquam vel aliquet erat. Maecenas vitae odio ut ipsum pellentesque gravida. Vestibulum id sodales justo, id placerat lorem. Mauris cursus interdum turpis, quis interdum nibh dictum in. Suspendisse cursus eget ante in posuere. Praesent blandit lectus at nisi bibendum, at placerat neque vestibulum. Donec turpis nisl, lobortis at molestie vel, sodales quis dui. Maecenas id tincidunt erat. Aenean ac nunc est. Curabitur in augue eget nisi congue imperdiet. In semper aliquam massa et pharetra. Quisque vehicula iaculis ipsum, a consectetur est consectetur at.
+    </p>
+
+    <!--Investor Relations-->
+    <div class="rep-container" id="rep-container">
+        <div class="rep" id="rep1"><ion-icon name="document-outline"></ion-icon>Q1</div>
+        <div class="rep" id="rep2"><ion-icon name="document-outline"></ion-icon>Q2</div>
+        <div class="rep" id="rep3"><ion-icon name="document-outline"></ion-icon>Q3</div>
+        <div class="rep" id="rep4"><ion-icon name="document-outline"></ion-icon>Q4</div>
+    </div>
+    <div class="slider" id="slider">
+        <div class="text">our partenrs:</div>
+        <div class="slide-continaer" id="slide-container">
+            <div class="slide">
+                <img src="images/tesla.png" class="img" />
+                <img src="images/apple.png" class="img" />
+                <img src="images/nvidia.png" class="img" />
+                <img src="images/aws.png" class="img" />
+                <img src="images/spotify.png" class="img" />
+                <img src="images/fedex.png" class="img" />
+                <img src="images/microsoft.png" class="img" />
+                <img src="images/smartsound.png" class="img" />
+                <img src="images/google.png" class="img" />
+            </div>
+            <div class="slide">
+                <img src="images/tesla.png" class="img" />
+                <img src="images/apple.png" class="img" />
+                <img src="images/nvidia.png" class="img" />
+                <img src="images/aws.png" class="img" />
+                <img src="images/spotify.png" class="img" />
+                <img src="images/fedex.png" class="img" />
+                <img src="images/microsoft.png" class="img" />
+                <img src="images/smartsound.png" class="img" />
+                <img src="images/google.png" class="img" />
+            </div>
+        </div>
+    </div>
+    <!--contact us-->
+    <div>
+
+    </div>
+
+
+    <script src="MainScript.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
